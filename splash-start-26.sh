@@ -5,7 +5,8 @@ splash serve --allowed-host ai.exocomet-boga.ts.net \
     --language-only \
     --default-reasoning-effort medium \
     --max-context 204800 \
-    --port 10000 --host 0.0.0.0 \
+    --port 10000 --host 127.0.0.1 \
     --max-memory 26G \
     --kv-format int8 \
-    --served-model "qwen3.8-27b"
+    --served-model "qwen3.8-27b" \
+    --no-webui

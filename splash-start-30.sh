@@ -9,3 +9,4 @@ splash serve --allowed-host ai.exocomet-boga.ts.net \
     --max-memory 30G \
     --kv-format int8 \
     --served-model "qwen3.8-27b"
+    --no-webui
