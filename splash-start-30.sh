@@ -20,6 +20,6 @@ splash serve --allowed-host ai.exocomet-boga.ts.net \
     --port 10000 --host 0.0.0.0 \
     --max-memory 30G \
     --kv-format int8 \
-    --served-model "Qwen3.8-27B-4bit" \
+    --served-model-name "Qwen3.8-27B-4bit" \
     --no-webui \
     --announce-served-name
