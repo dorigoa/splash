@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
+MAX_CONTEXT="262144"
 if [[ $# -ne 1 ]]; then
-    echo "Usage: $0 <max-context>" >&2
-    exit 1
+    MAX_CONTEXT="262144"
+    #echo "Usage: $0 <max-context>" >&2
+    #exit 1
+else
+    MAX_CONTEXT="$1"
 fi
-MAX_CONTEXT="$1"
+
 
 brew install Splash
 brew upgrade Splash
